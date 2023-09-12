@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.principal{
+    flex: 1;
+    
+    
+}
+#mostrarMensaje{
+    display: none;
+}
+.oculto1{
+    display: none;
+}
+#text1 {
+    width: 350px;
+}
+#Guardar{
+    margin-left: 270px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:white;
+    background-color: rgb(177, 32, 80);
+    border-color: white;
+}
+.oculto{
+    flex: 2;
+    margin-left: -200px;
+    margin-top: 410px;
+    border: solid 1px;
+    width: 380px;
+    padding: 20px
+    
+
+}
+.oculto1{
+    text-align: center;
+    
+}
+#acapite2, #acapite4{
+    background-color: white;
+    border: solid 1px;
+}
+
+.menu {
+    background-color: pink;
+    color: black;
+    width: 200px;
+    height: 50px;
+    
+  
+    
+}
+.menu2 {
+    background-color: pink;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-top: 250px;
+    
+}
+
+
+
+.acapite {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.oculto {
+    display: none;
+}
+
+#mostrarMensaje{
+
+    background-color: rgb(177, 32, 80);
+    width: 21%;
+    height: 50px;
+    color: white;
+    border-color: white;
+    border-radius: 100px;
+    
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 150px;
+   
+    text-align: center;
+
+}
+.oculto1:hover {
+    cursor: pointer;
+}
+#mensaje{
+    width: 40%;
+    height: 26px;
+    margin-left: -60px;
+    margin-top: 30px;
+    border-width: 20%;
+    background-color: rgb(243, 91, 142);
+    color: white;
+    font-size: 20px;
+    
+   
+}
+
